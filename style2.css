@@ -1,0 +1,126 @@
+body{
+    background: url("img/background.png");
+    position: relative;
+    font-family: "Arial", sans-serif;
+}
+.icon{
+
+    color: #EB43A3;
+}
+
+h1{
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    color: #C55394;
+    margin-left: 40%;
+    font-size: 25px;
+    margin-top: 5%;
+}
+h2{
+    font-family:'Courgette', cursive; 
+    color: #EB43A3;
+}
+h3{
+    font-family:'Courgette', cursive ;
+    color: #EB43A3;
+    font-size: 15px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C55394;
+    font-family:'Courgette', cursive ;
+}
+li{
+    float: right;
+}
+.colore{
+    background-color: #EB43A3;
+}
+li a{
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover :not(.active) {
+    background-color: #EB43A3;
+
+}
+.active{
+    background-color: black;
+}
+/* rainbow*/
+.couleur
+{
+    position: absolute;
+    z-index: -1;
+    margin-left: 25%;
+}
+.box-shadow{
+    border-radius: 15px;
+    box-shadow: 0 15PX 15px 0 rgba(0, 0, 0, 0.2), 0 15px 15px 0 rgba(0, 0, 0, 0.2);
+    background-color: #FFF;
+    margin: 10%;
+    padding: 5%;
+}
+.licorne{ 
+    width: 200px;
+}
+.flex{
+    display: flex;
+    position: relative;
+}
+.card-licorne{
+    margin-left: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.card-licorne :hover {
+transform: scale(1.2);
+}
+.container {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+     width: 200px;
+     text-align: center;
+}
+
+.flex-container{
+    display: flex;
+}
+.flex-container>div{
+    margin-left: 20px;
+}
+button{
+    color: #FFF;
+    background: #C55394;
+    border: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+/*pieds*/
+footer{
+   font-size: 10px;
+   margin-top: 0;
+   padding: 10px;
+   color: #FFF;
+   text-align: right;
+   background-color: #C55394;
+}
+.pieds{
+
+   margin-left: 85% ;
+   padding-bottom: 10px;
+   color: #FFF;
+   text-align: right;
+}
